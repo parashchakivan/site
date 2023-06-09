@@ -1,0 +1,37 @@
+{% extends "index.html" %}
+{% block body %}
+
+<h2 class="mt-5 mb-4 bg-body-tertiary rounded shadow-sm d-inline-flex border">
+    <span class="text-bg-dark p-2">Вітаю до мого портфоліо</span>
+</h2>
+<style>
+    .container {
+      display:table;
+    } 
+    .row { 
+      display:table-row;
+    } 
+    .cell { 
+      display:table-cell;
+    } 
+    </style>
+<div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="cell col-lg-3 col-md-3 col-sm-6 col-xs-12">               
+            <img src="/static/kit.jpg" alt="Фото">
+        </div>
+        <div class="cell ...">
+          <h3>Прізвище Ім'я Побатькові</h3>
+          <p>вік</p>
+        </div>
+      </div>
+    </div>
+</div>
+<h4>Досконало володію такими мовами як:Німецька, Українська, Англійська, Французька</h4>
+<h4>Також володію такими мовами програмування як:</h4>
+<h4>Досвід роботи:з 2008 до 2014 сидів дома</h4>
+
+
+
+{% endblock %}
